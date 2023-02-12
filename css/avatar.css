@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.avatar-project {
+    margin-top: 5em;
+}
+
+input {
+    border-top: none!important;
+    border-left: none!important;
+    border-right: none!important;
+    border-bottom: 3px solid blue!important;
+    border-radius: 0!important;
+    outline: 0!important;
+}
+
+img {
+    width: 300px;
+    padding: 5em;
+}

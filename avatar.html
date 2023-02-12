@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/avatar.css">
+    <title>avatar</title>
+</head>
+
+<body>
+
+    <div class="avatar-project text-center container">
+        <h1 class=" fw-bold">Choose Your Avatar for Your Profile</h1>
+
+        <div class="avatar-carousel container">
+            <div id="carouselExampleIndicators" class="carousel carousel-dark  slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="avatar/casual-life-3d-avatar-girl-with-glasses.png" class="img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="avatar/casual-life-3d-avatar-girl-with-pink-hair.png" class="img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="avatar/casual-life-3d-profile-picture-of-person-in-glasses-and-orange-shirt.png" class="img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="avatar/casual-life-3d-profile-picture-of-woman-in-black-hat-and-pink-shirt.png" class="img-fluid" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="mb-3 container py-5">
+
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Display Name">
+        </div>
+
+        <div class="btn">
+            <a href="index.html" class="btn btn-save btn-outline-primary">Save and Back</a>
+        </div>
+    </div>
+
+
+    <script src=" https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js "></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

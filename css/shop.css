@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.main {
+    overflow: hidden;
+}
+
+ul {
+    padding: 0!important;
+}
+
+nav {
+    border-radius: 50px;
+    margin: 1.2rem 0;
+}
+
+.span-title {
+    color: orange;
+}
+
+.header li {
+    padding: 1.2rem 1em;
+}
+
+.header li a {
+    color: var(--li-color);
+    transition: 0.5s;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.header li a:hover {
+    color: rgb(68, 47, 255);
+    transition: 0.5s;
+}
+
+.btn-blue {
+    background-color: #2537fc!important;
+    color: #fff!important;
+    font-weight: 700;
+    border: 0;
+    transition: 0.3s;
+    font-size: 1.3em;
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+}
+
+.btn-blue:hover {
+    background: transparent!important;
+    color: rgb(0, 0, 0) !important;
+    border: 1px solid var(--li-color)!important;
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+}
+
+.main {
+    padding-top: 10em;
+}
+
+.suggest img {
+    height: 23em;
+}
+
+.icon-div i {
+    padding: 1.2rem;
+    color: #ff6a82;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.category {
+    padding: 7em 0;
+}
+
+.inner-category {
+    margin: 1.6em 0;
+}
+
+.name-icon {
+    padding-top: 0.2rem;
+    font-weight: bold;
+}
+
+.pagination {
+    margin: 3em 0;
+}
+
+.pagination-button {
+    border: 0;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 .2rem;
+    padding: 1rem;
+}
+
+.pagination .active {
+    border: 0;
+    background-color: #2fff59;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.footer {
+    background-color: #111130;
+    padding: 6em 0;
+    color: #fff;
+}
+
+.items-footer {
+    display: inline-block;
+}
+
+.btn-special {
+    text-decoration: none;
+    padding: 1.2rem 0;
+    color: #fff;
+}
+
+.footer i:hover {
+    background-color: #fff;
+    transition: 0.3s;
+    color: #111130;
+}
+
+@media only screen and (max-width: 1200px) {
+    .navbar {
+        background-color: #fff;
+    }
+    .header .btn-li {
+        background-color: #2537fc;
+        color: #fff;
+        padding: 0.2rem 1.5rem;
+        border-radius: 5px;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    .social-container {
+        padding: 0;
+    }
+}
